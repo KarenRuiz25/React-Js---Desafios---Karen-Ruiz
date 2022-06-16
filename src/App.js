@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+//IMPORTS: DEBEN ESTAR ARRIBA DE TODO
+import NavBar from "./components/NavBar.js" //importo el componente NavBar
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <>
+            <NavBar/>         
+        </>
+    )
 }
 
-export default App;
+export default App; //exporto el componente App para que lo pueda usar en otro archivo
