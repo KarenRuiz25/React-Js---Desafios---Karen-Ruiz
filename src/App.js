@@ -1,6 +1,6 @@
-//IMPORTS: DEBEN ESTAR ARRIBA DE TODO
 import NavBar from "./components/NavBar.js"
 import ItemListContainer from "./components/ItemListContainer.js";
+
 
 const App = () => {
     return (
@@ -11,4 +11,4 @@ const App = () => {
     )
 }
 
-export default App; //exporto el componente App para que lo pueda usar en otro archivo
+export default App;

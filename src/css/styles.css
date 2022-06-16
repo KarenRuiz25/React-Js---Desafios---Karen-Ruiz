@@ -39,3 +39,17 @@ h2{
     padding: 30px;
     font-size: 30px;
 }
+
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    font-size: 30px;
+}
+
+.contador button {
+    padding: 6px 10px;
+    margin: 0px 20px;
+}
+
