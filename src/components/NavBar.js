@@ -1,8 +1,4 @@
-// ESTO ES UN COMPONENTE, recordar que:
-// -el componente es una funcion
-// -debe empezar con mayusculas
-// -tiene que retornar algo
-// -tiene que estar exportado para poder usarlo
+import CartWidget from "./CartWidget"
 
 const NavBar = () => {
     return (                
@@ -12,7 +8,8 @@ const NavBar = () => {
                 <a href="#">Inicio</a>
                 <a href="#">Tienda</a>
                 <a href="#">Sobre nosotros</a>
-                <a href="#">Contacto</a>                
+                <a href="#">Contacto</a>
+                <a href=""> <CartWidget/> </a>              
             </nav>
         </header>
     )

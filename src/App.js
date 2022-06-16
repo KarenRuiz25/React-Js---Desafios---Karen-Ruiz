@@ -1,10 +1,12 @@
 //IMPORTS: DEBEN ESTAR ARRIBA DE TODO
-import NavBar from "./components/NavBar.js" //importo el componente NavBar
+import NavBar from "./components/NavBar.js"
+import ItemListContainer from "./components/ItemListContainer.js";
 
 const App = () => {
     return (
         <>
-            <NavBar/>         
+            <NavBar/>
+            <ItemListContainer greeting="¡Bienvenidos a Sucuworld!"/>    
         </>
     )
 }
