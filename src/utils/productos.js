@@ -24,4 +24,14 @@ const productos = [
     }
 ]
 
+const unProducto = {
+    id: 1,
+    nombre: 'Echeveria Cepegia',
+    precio: 320,
+    img: Imagenes['Echeveria Cepegia'],
+    descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo nibh, porttitor at scelerisque sed, gravida nec ipsum. Aliquam facilisis, magna eget aliquam finibus, ex nisi pretium purus, quis egestas enim lorem eu elit. Maecenas hendrerit mauris a lacus luctus, sed hendrerit erat viverra. Ut viverra enim nec tortor vulputate, in gravida eros viverra. Nam pulvinar ut lacus sed fringilla. Praesent tempus tellus justo, a laoreet lectus feugiat ac. Vestibulum lorem ligula, venenatis sit amet turpis et, laoreet egestas quam.',        
+    stock: 5
+}
+
 export default productos;
+export {unProducto}

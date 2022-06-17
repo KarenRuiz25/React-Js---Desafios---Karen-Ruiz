@@ -10,7 +10,6 @@ function Item({id, nombre, precio, img, stock}) {
             <p>Art.{id}</p>
             <h3>{nombre}</h3>
             <p>${precio}</p>
-
             
             <ItemCount stock={stock} initial={1} /> 
 
